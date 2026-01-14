@@ -20,6 +20,10 @@ jobs:
         run: |
           echo -e "-${{github.actor}} modifica el repo ${{ github.repository }} : "`date`"\n" >> README.md
 
+      - name: Modificar MiProyectoWeb.html
+        run: |
+          sed -i "/<ul>/a\ <li>'-${{github.actor}} modifica el repo ${{ github.repository }} : "`date`"\n'</li>" MiProyectoWeb.html
+
       - name: commit i push
         run: |
           git config --global user.name "${{ github.actor }}"

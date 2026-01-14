@@ -1,0 +1,48 @@
+	body {
+	
+		background-color: powderblue;
+		font-family: 'Krona One', sans-serif;
+		
+	}
+
+
+	.name {
+	
+		text-align: center;
+		color: red;
+		border-style: groove;
+		border-color: black;
+		width: 20%;
+		
+	}
+
+	a {
+		
+		float: right;
+		color: white;
+		
+	}
+	
+	#title, h6 {
+		color: beige;
+		text-align: center;
+		
+	}
+	
+	
+	
+	ol li {
+	
+		text-align:justify;
+	
+	}
+
+	footer {
+		
+		background-color: grey;
+		text-align: center;
+		border-style: groove;
+		width: 100%;
+		
+	}
+	

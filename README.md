@@ -3,8 +3,8 @@
 
 ## CURS DE DESENVOLUPAMENT AMB TECNOLOGÍES WEB
 
-|-------|--------|
-|![DJG](assets/img/cropped-game-console11.png)|Daniel Jornet Gómez        |
+| Repositori de treball a carrec de -> | Daniel Jornet Gómez |
+|![DJG](assets/img/cropped-game-console11.png)|![DJG](assets/img/cropped-game-console11.png)|
 |-------|--------|
 
 # DESPELGAMENTS AMB GITHUB ACTIONS-Draxler-GJ modifica el repo Draxler-GJ/intermodular09DJG : Wed Jan 14 11:32:58 UTC 2026

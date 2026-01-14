@@ -22,7 +22,8 @@ jobs:
 
       - name: Modificar MiProyectoWeb.html
         run: |
-          sed -i "/<ul>/a\ <li>'-${{github.actor}} modifica el repo ${{ github.repository }} : "`date`"\n'</li>" MiProyectoWeb.html
+          COMMIT_INFO = $(git log -1 --pretty=format: '%Y-%m-%%d %H:%M - %s)
+          sed -i "/<ul>/i\ <li>$COMMIT_INFO</li>" MiProyectoWeb.html
 
       - name: commit i push
         run: |

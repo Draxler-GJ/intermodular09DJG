@@ -22,8 +22,7 @@ jobs:
 
       - name: Modificar MiProyectoWeb.html
         run: |
-          COMMIT_INFO = $(git log -1 --pretty=format: '%Y-%m-%d %H:%M - %s')
-          sed -i "/<ul>/i\ <li>$COMMIT_INFO</li>" MiProyectoWeb.html
+          sed -i "s/</ul>/ <li>${v}</li>\n\t</ul>/" index.html
 
       - name: commit i push
         run: |
